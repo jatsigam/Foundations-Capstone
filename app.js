@@ -93,7 +93,7 @@ button.addEventListener('click', () => {
     populate(null, true)
 })
 
-
+// favorites
 if (location.pathname === "/favorites") {
     document.body.classList.add('favoritesPage')
     axios.get("/favoritesData")
