@@ -1,10 +1,8 @@
 const button = document.querySelector('.button')
-const container = document.querySelector('.resultContainer')
 const city_input = document.querySelector('.city')
 const icon = "http://openweathermap.org/img/wn/10d@2x.png"
 const key = config.API_KEY
 
-let nameOfSearchCity = ''
 
 function populate(city_value, removeOthers = false) {
     var city = city_input.value || city_value
